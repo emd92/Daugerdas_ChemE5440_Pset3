@@ -57,4 +57,4 @@ Species_Array = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 (Objective_value, flux_array, uptake_array, exit_flag) = calculate_optimal_flux_distribution(S, Flux_Array, Species_Bound, Objective_Array)
 
-Maxrate = -1*objective_value
+#At this point I get an Error that says "BoundsError: attempt to access 2x32 Array{Int32,2} at index [3, 1]. I did not have time to address this problem
